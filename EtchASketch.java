@@ -28,7 +28,7 @@ public class EtchASketch extends Canvas
 	public void paint( Graphics g )
 	{
 		g.setColor(cur);
-		g.fillOval(x, y, 50, 50);
+		g.fillOval(x, y, 25, 25);
 	}
 
 	public void update( Graphics g )
