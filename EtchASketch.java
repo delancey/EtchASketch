@@ -45,7 +45,10 @@ public class EtchASketch extends Canvas
 				y -= 5;
 			if ( e.getKeyCode() == KeyEvent.VK_DOWN )
                 y += 5;
-                
+			if ( e.getKeyCode() == KeyEvent.VK_LEFT )
+				x -= 5;
+			if ( e.getKeyCode() == KeyEvent.VK_RIGHT )
+                x += 5;        
 
 			// and we manually call paint() again to redraw
 			repaint();
